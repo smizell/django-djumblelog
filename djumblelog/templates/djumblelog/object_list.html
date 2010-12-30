@@ -1,0 +1,8 @@
+{% comment %}
+    Do no edit this file, create a custom render.html file.  To do so,
+    create a template file djumblelog/render.html in your template path.
+{% endcomment %}
+
+{% for obj in object_list %}
+    {{ obj.render }}
+{% endfor %}
